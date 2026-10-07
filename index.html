@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Salão de Beleza Bella</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="logo">
+            <img src="logo.png" width="70">
+            <h1>Salão Bella</h1>
+        </div>
+
+        <nav>
+            <a href="#Inicio">Início</a>
+            <a href="#Serviços">Serviços</a>
+            <a href="#Contato">Contato</a>
+        </nav>
+
+    </header>
+
+    <section id="Inicio" class="banner">
+
+        <img src="baner.png">
+
+    </section>
+
+    <h2>Nossos Serviços</h2>
+
+    <section class="cards" id="Serviços">
+
+        <div class="card" id="card1" draggable="true">
+
+            <img src="https://img.freepik.com/fotos-premium/tesoura-de-corte-de-cabelo-e-mulher-cortando-cabelo-ou-afro-como-cuidado-diy-e-salao-isolado-em-fundo-cinza-de-estudio-beleza-de-retrato-e-dicas-de-acabamento-de-modelo-feminino-como-autocuidado-com-sorriso-e-feliz_590464-141119.jpg">
+
+            <h3>Corte Feminino</h3>
+
+            <p>Cortes modernos para todos os estilos.</p>
+
+            <p><b>A partir de R$ 50,00</b></p>
+
+            <button>Saiba mais</button>
+
+            <p class="extra" id="extra1">
+                Atendimento rápido.
+            </p>
+
+        </div>
+
+        <div class="card" id="card2" draggable="true">
+
+            <img src="https://tse2.explicit.bing.net/th/id/OIP.T240tdyn90b8m2E18ZOm2wHaEK?r=0&pid=Api&P=0&h=180">
+
+            <h3>Manicure</h3>
+
+            <p>Unhas lindas e bem cuidadas.</p>
+
+            <p><b>A partir de R$ 35,00</b></p>
+
+            <button>Saiba mais</button>
+            <p class="extra" id="extra2">
+                Material esterilizado.
+            </p>
+        </div>
+        <div class="card" id="card3" draggable="true">
+            <img src="https://i.pinimg.com/736x/dc/c9/58/dcc95873aa8949d3d8f0c52b2f02a599.jpg">
+            <h3>Escova</h3>
+
+            <p>Escova lisa ou modelada.</p>
+
+            <p><b>A partir de R$ 40,00</b></p>
+
+            <button>Saiba mais</button>
+            <p class="extra" id="extra3">
+                Resultado duradouro.
+            </p>
+        </div>
+    </section>
+
+    <h2>Agendamento</h2>
+
+
+    <form id="Contato" id="formulario">
+
+
+        <input type="text" id="nome" placeholder="Nome">
+
+
+        <input type="email" id="email" placeholder="E-mail">
+
+
+        <input type="text" id="telefone" placeholder="Telefone">
+
+
+        <input type="text" id="servico" placeholder="Serviço desejado">
+
+
+        <input type="number" id="quantidade" placeholder="Quantidade">
+
+
+        <input type="date" id="data">
+
+
+        <textarea id="obs" placeholder="Observações"></textarea>
+
+
+        <label>
+
+
+            <input type="checkbox" id="check">
+
+
+            Confirmo que os dados estão corretos.
+
+
+        </label>
+
+
+        <button type="submit">
+            Enviar
+        </button>
+
+
+        <button type="reset">
+            Limpar
+        </button>
+
+
+    </form>
+
+
+    <h2>Resultado</h2>
+
+
+    <div id="resultado">
+
+
+    </div>
+
+
+    <br>
+
+
+    <button id="confirmar">
+        Segure para confirmar
+    </button>
+
+
+    <h2>Meus Favoritos</h2>
+
+
+    <div id="favoritos" draggable="true">
+        Arraste os serviços para cá.
+
+    </div>
+
+
+    <div id="Contato" id="menu">
+
+
+        <p>Início</p>
+
+
+        <p>Serviços</p>
+
+
+        <p>Contato</p>
+
+
+    </div>
+
+
+   
+
+
+</body>
+
+
+</html>
